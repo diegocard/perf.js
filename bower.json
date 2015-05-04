@@ -1,0 +1,26 @@
+{
+  "name": "perf.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/diegocard/perf.js",
+  "authors": [
+    "Diego Cardozo <diegocard@gmail.com>"
+  ],
+  "description": "A complete toolset for measuring page load times, including a Navigation Timing API wrapper",
+  "main": "dist/perf.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "performance"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

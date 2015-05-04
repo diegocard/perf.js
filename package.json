@@ -1,0 +1,31 @@
+{
+  "name": "perf.js",
+  "version": "0.0.1",
+  "description": "A complete toolset for measuring page load times, including a Navigation Timing API wrapper",
+  "main": "dist/perf.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegocard/perf.js.git"
+  },
+  "keywords": [
+    "performance"
+  ],
+  "author": "Diego Cardozo <diegocard@gmail.com> (http://about.me/diegocard)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegocard/perf.js/issues"
+  },
+  "homepage": "https://github.com/diegocard/perf.js",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-header": "^1.2.2",
+    "gulp-qunit": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^1.2.1",
+    "gulp-uglify": "^1.2.0"
+  }
+}
